@@ -29,4 +29,4 @@ My motivation for choosing to proceed with text summarization using Deep Learnin
 ## Credits
 This little project could not have been possible without the help of my mentor, Teck Wu! Special thanks to the Girls In Tech (GIT) team for organizing this summer programme for us tech girlies. :-)
 
-Special thanks to ___ for 
+Special thanks to [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/), [Hugging Face](https://huggingface.co/) for inspiration code snippets for aiding me along in this journey.
