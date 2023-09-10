@@ -36,6 +36,9 @@ Final summaries are stored in []
 ## Motivation
 I chose to proceed with text summarization using Deep Learning was to understand Neural Networks a little more. Along the way, I also picked up new knowledge on the different types of NNs availble, like bidrectional LSTM models and Transformers, as well as coming across various language models like BERT and T5. This was my first exposure to Deep Learning, and it has definitely made me consider going into this field in the future. 
 
+## Todo
+Create a web application to showcase the final fine-tuned model with custom queries 
+
 ## Credits
 This little project could not have been possible without the help of my mentor, Teck Wu! Special thanks to the Girls In Tech (GIT) team for organizing this summer programme for us tech girlies. :-)
 
