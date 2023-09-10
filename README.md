@@ -7,7 +7,6 @@ While automated metrics like ROUGE are valuable, they may not capture the nuance
 
 [Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews) was used as our dataset for all models. Due to computational constraints, only around 70000 reviews were used for training and testing.
 
-With the rise of Deep Learning models, many have sought to implement it in real world scenarios -- Digital assistants, computer vision, fraud detection etc.
 
 ## Contents
 A total of 4 variations of models were implemented/fine-tuned
@@ -16,16 +15,27 @@ A total of 4 variations of models were implemented/fine-tuned
 3. BART
 4. T5
 
-Based on human evaluation of coherence, conciseness, and relevance, T5 model achieved the greatest accuracy in capturing the essence of the source text.
+Based on human evaluation of coherence, conciseness, and relevance, T5 model achieved the greatest accuracy in capturing the essence of the source text. Below is an actual summary from our fine-tuned T5 model:
+
+```
+input_text = 'the  toy  seems  pretty  durable  which  is  a big  winner  for  me  because  usually  the  toys  that  i buy  for  my  dogs  do  not  last  quite  long the  toy  itself  has  a tennis  ball  inside  which  i really  like  you  do  not  have  to  buy  two  separate  toys i  also  love  the  fact  that  it  has  a ball  inside  and  they  can  try  to  entertain  themselves so  awesome'
+
+output_summary = 'love the fact that it comes with ball'
+```
 
 ## Installation
 ```
-pip install nltk py7zr datasets torch torchvision torchaudio
+pip install nltk py7zr datasets torch torchvision torchaudio rouge.score sentencepiece
 pip install accelerate transformers -U
-```
+``` 
 
+## Usage
+Run notebooks as per linked
+Final summaries are stored in []
 
-My motivation for choosing to proceed with text summarization using Deep Learning was to understand Neural Networks a little more. Along the way, I also picked up new knowledge on the different types of NNs availble, like bidrectional LSTM models, and coming across various language models like BERT and ...
+## Motivation
+I chose to proceed with text summarization using Deep Learning was to understand Neural Networks a little more. Along the way, I also picked up new knowledge on the different types of NNs availble, like bidrectional LSTM models and Transformers, as well as coming across various language models like BERT and T5. This was my first exposure to Deep Learning, and it has definitely made me consider going into this field in the future. 
+
 ## Credits
 This little project could not have been possible without the help of my mentor, Teck Wu! Special thanks to the Girls In Tech (GIT) team for organizing this summer programme for us tech girlies. :-)
 
