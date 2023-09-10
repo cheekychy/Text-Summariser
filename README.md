@@ -31,7 +31,7 @@ pip install accelerate transformers -U
 
 ## Usage
 Run notebooks as per linked
-Final summaries are stored in []
+Final summaries are stored in [Summaries](https://github.com/cheekychy/Text-Summariser/blob/main/summaries.md)
 
 ## Motivation
 I chose to proceed with text summarization using Deep Learning was to understand Neural Networks a little more. Along the way, I also picked up new knowledge on the different types of NNs availble, like bidrectional LSTM models and Transformers, as well as coming across various language models like BERT and T5. This was my first exposure to Deep Learning, and it has definitely made me consider going into this field in the future. 
