@@ -24,8 +24,7 @@ Review: product great skeptical never tried anything similar sold recently went 
 Original summary: amazing pasta 
 Predicted summary:  to noodles is pasta pasta pasta pasta
 
-## BART model summaries
-
+## BART model 
 Review: my  dog shadow loves  greenies  more  than  any  treat he  is  a pomeranian  and  gets  the  teenies and  are  we  in  trouble  if  we  run  out i  just  bought  the  tub  of  96  on  amazon  for  less  than  half  the  money  that  the  small  packages  cost  at  the  store debbie
 Original summary: my dog loves greenies
 Predicted summary: my dog loves these greenies etc
@@ -38,7 +37,7 @@ Review: i  bought  these  on  a super  discount  from  amazon  got  like  360  t
 Original summary: great product wish there was more flavor in it'
 Predicted summary: no brainer pros and cons not
 
-## T5 model summaries
+## T5 model 
 Review: popchips  are  a great  guilt free  way  to  add  some  crunchy  satisfaction  to  your  diet  without  added  excess  fat  and  sugar they  are  clean light deliciously  satisfying  and  are  available  in  a variety  of  flavors they  would  make  a great  lunch  box  addition popchips  will  be  on  hand  in  our  home  from  now  on
 Original summary: topchips
 Predicted summary: popchips are a great way to add some crunchy satisfaction
