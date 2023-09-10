@@ -1,4 +1,30 @@
-# BART model summaries
+# LSTM Model with Tokenizer
+Review: i ordered two bags of haribo gummi bear and the package arrived on time however once i opened the box i realized the original bags were opened and the gummy bears were hardened i was so upset about this order 
+Original summary: horrible packages 
+Predicted summary:  gummi gummi gummy they in in gummy gummy
+
+Review: there is not much to say that has not been said by mr scoggins so i will keep it short if you like energy drinks but do not like the idea of intaking all the sugar and calories then this is what you want to be drinking 
+Original summary: great stuff 
+Predicted summary:  flavor of but with with in this taste
+
+Review: these cocoa dusted almonds are really nice since they are not covered in melted chocolate they are drier and nuttier with that dark cocoa topping overall way better than candy i find myself reaching for them a few times a day after a while i really develop a taste for them i like that these are slightly drier it makes for a crispy snack versus the marcona almonds which are chewier i liked both though 
+Original summary: cocoa dust delight 
+Predicted summary:  and and and and and and and cookie
+
+## LSTM Model with Word2Vec embeddings
+Review: 11 month old son could eat day warning give freeze dried bananas get stuck teeth know look past love freeze dried bananas much e business melt tongue great initial crunch 
+Original summary: perfect snack for extreme banana fans 
+Predicted summary:  banana fruit fruit fruit banana banana banana banana
+
+Review: impressed service speed delivery disappointed half cans case arrived severely dented bother asking replacement immediate use product word caution buyers next time forgiving 
+Original summary: dented cans 
+Predicted summary:  dented can can can can in in cans
+
+Review: product great skeptical never tried anything similar sold recently went flourless diet thought done pasta life someone recommended try product decided give try glad bought tinkyada brown rice fusilli packages shared friends anxious try varieties make old familiar recipes pasta works particular diet plan used quick easy cooking method worked perfectly 
+Original summary: amazing pasta 
+Predicted summary:  to noodles is pasta pasta pasta pasta
+
+## BART model summaries
 
 Review: my  dog shadow loves  greenies  more  than  any  treat he  is  a pomeranian  and  gets  the  teenies and  are  we  in  trouble  if  we  run  out i  just  bought  the  tub  of  96  on  amazon  for  less  than  half  the  money  that  the  small  packages  cost  at  the  store debbie
 Original summary: my dog loves greenies
