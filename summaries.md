@@ -1,4 +1,4 @@
-# LSTM Model with Tokenizer
+## LSTM Model with Tokenizer
 Review: i ordered two bags of haribo gummi bear and the package arrived on time however once i opened the box i realized the original bags were opened and the gummy bears were hardened i was so upset about this order 
 Original summary: horrible packages 
 Predicted summary:  gummi gummi gummy they in in gummy gummy
